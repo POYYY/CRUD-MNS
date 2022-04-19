@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coin Market</title>
+    <script type="module" src="/public/js/cryptoVue.js" defer></script>
+    <script type="module" src="/public/js/module/options.js" defer></script>
+</head>
+
+<body>
+<!--navBar-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Coin Market</a>
+        <button class="navbar-toggler" type="button">
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/add">Ajouter une crypto-monnaie</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--vue d'une crypto-monnaie-->
+<main>
+    <div class="container d-flex flex-column align-items-center">
+        <p id="title"></p>
+        <p id="description"></p>
+        <button class="btn btn-success" id="button-back">Retour</button>
+    </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Coin Market</title>
+    <script type="module" src="/public/js/module/options.js" defer></script>
+    <script type="module" src="/public/js/add.js" defer></script>
+</head>
+
+<body>
+<!--navBar-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">Coin Market</a>
+        <button class="navbar-toggler" type="button">
+        </button>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/add">Ajouter une crypto-monnaie</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--ajout d'une fiche crypto-->
+<main>
+    <!--form add-->
+    <form action="#" id="form-add">
+        <div class="container p-5">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nom de la crypto-monnaie</label>
+                <input type="text" name="name" id="name" class="form-control" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Description du réseau de la blockchain</label>
+                <input type="textarea" name="description" id="description" class="form-control" />
+            </div>
+            <button type="submit" class="btn btn-warning">Ajouter</button>
+        </div>
+    </form>
+</main>
+</body>
+</html>
